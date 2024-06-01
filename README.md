@@ -1,2 +1,1 @@
-# History-of-Deep-Learning
-learningggggggg
+# History-of-Deep-Learning (inspire by @adam-maj)
