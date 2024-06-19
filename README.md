@@ -1,5 +1,7 @@
 # History-of-Deep-Learning (inspire by @adam-maj)
 
+## Totalcount : (1/31)
+
 ## 01-deep-neural-networks
 
 | Concept       | Complete |
