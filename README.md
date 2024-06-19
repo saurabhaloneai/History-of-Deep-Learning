@@ -2,58 +2,59 @@
 
 ## 01-deep-neural-networks
 
-| Concept       | Check |
+| Concept       | Complete |
 |---------------|-------|
-| BackPropagation | [✅]   |
-| CNN           | [ ]   |
-| AlexNet       | [ ]   |
-| U-net         | [ ]   |
+| BackPropagation | ✅   |
+| CNN           |   |
+| AlexNet       |   |
+| U-net         |    |
 
 ## 02-optimization-and-regularization
 
-| Concept         | Check |
+| Concept         | Complete |
 |-----------------|-------|
-| weights-decay   | [ ]   |
-| relu            | [ ]   |
-| residuals       | [ ]   |
-| dropout         | [ ]   |
-| batch-norm      | [ ]   |
-| layer-norm      | [ ]   |
-| gelu            | [ ]   |
-| adam            | [ ]   |
+| weights-decay   |    |
+| relu            |    |
+| residuals       |    |
+| dropout         |    |
+| batch-norm      |    |
+| layer-norm      |    |
+| gelu            |    |
+| adam            |    |
 
 ## 03-sequence-modeling
 
-| Concept           | Check |
+| Concept           | Complete |
 |-------------------|-------|
-| rnn               | [ ]   |
-| lstm              | [ ]   |
-| learning-to-forget| [ ]   |
-| word2vec          | [ ]   |
-| seq2seq           | [ ]   |
-| attention         | [ ]   |
-| mixture-of-experts| [ ]   |
+| rnn               |    |
+| lstm              |    |
+| learning-to-forget|    |
+| word2vec          |    |
+| seq2seq           |    |
+| attention         |    |
+| mixture-of-experts|    |
 
 ## 04-transformer
 
-| Concept            | Check |
+| Concept            | Complete |
 |--------------------|-------|
-| transformer        | [ ]   |
-| bert               | [ ]   |
-| t5                 | [ ]   |
-| gpt                | [ ]   |
-| lora               | [ ]   |
-| rlhf               | [ ]   |
-| vision-transformer | [ ]   |
+| transformer        |    |
+| bert               |    |
+| t5                 |    |
+| gpt                |    |
+| lora               |    |
+| rlhf               |    |
+| vision-transformer |    |
 
 ## 05-image-generation
 
-| Concept         | Check |
+| Concept         | Complete
+ |
 |-----------------|-------|
-| gans            | [ ]   |
-| vae             | [ ]   |
-| diffusion       | [ ]   |
-| clip            | [ ]   |
-| dall-e          | [ ]   |
+| gans            |    |
+| vae             |    |
+| diffusion       |    |
+| clip            |    |
+| dall-e          |    |
 
 ---
