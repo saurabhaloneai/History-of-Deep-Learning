@@ -1,5 +1,7 @@
 # History-of-Deep-Learning (inspire by @adam-maj)
 
+Three stage of implemntation : From Scrath, In PyTorch And In Jax(not all but some).
+
 ## Totalcount : (1/31)
 
 ## 01-deep-neural-networks
