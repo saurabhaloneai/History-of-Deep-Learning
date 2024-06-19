@@ -48,8 +48,7 @@
 
 ## 05-image-generation
 
-| Concept         | Complete
- |
+| Concept         | Complete |
 |-----------------|-------|
 | gans            |    |
 | vae             |    |
