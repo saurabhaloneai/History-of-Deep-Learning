@@ -10,7 +10,7 @@ Three stage of implemntation : From Scrath, In PyTorch And In Jax(not all but so
 |---------------|-------|
 | BackPropagation | ✅   |
 | CNN           | ✅   |
-| AlexNet       |   |
+| AlexNet       | ✅   |
 | U-net         |    |
 
 ## 02-optimization-and-regularization
