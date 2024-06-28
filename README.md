@@ -2,7 +2,7 @@
 
 Three stage of implemntation : From Scrath, In PyTorch And In Jax(not all but some).
 
-## Totalcount : (1/31)
+## Totalcount : (4/31)
 
 ## 01-deep-neural-networks
 
