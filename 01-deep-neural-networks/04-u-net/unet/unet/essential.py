@@ -61,6 +61,6 @@ class up_sample(nn.Module):
         
         x1 = self.up_conv(x1)
         
-        x = torch.cat([x1,x2],1) #main func
+        x = torch.cat([x1,x2],1) #skip connections
         
         return self.conv(x)
