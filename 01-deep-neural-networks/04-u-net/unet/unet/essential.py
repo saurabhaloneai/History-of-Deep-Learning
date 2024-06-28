@@ -25,7 +25,7 @@ class double_conv(nn.Module):
     
 # Down smapling layer nothting but the conv and pool 
 
-class down_sampling(nn.Module):
+class down_sample(nn.Module):
     
     def __init__(self,in_chan,out_chan):
         
@@ -48,7 +48,7 @@ class down_sampling(nn.Module):
 # Up sampling (Done by the Transposed_conv)
 
 
-class up_sampling(nn.Module):
+class up_sample(nn.Module):
     
     def __init__(self,in_chan,out_chan):
         
