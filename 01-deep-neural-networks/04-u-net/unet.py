@@ -44,7 +44,7 @@ class up_sample(nn.Module):
         x = torch.cat([x2, x1], dim=1)  # skip connections
         return self.conv(x)
 
-class Unet(nn.Module):
+class UNet(nn.Module):
     def __init__(self, in_chan, out_chan):
         super().__init__()
         self.down_conv_1 = down_sample(in_chan, 64)
