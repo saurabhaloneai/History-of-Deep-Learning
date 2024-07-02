@@ -1,65 +1,62 @@
-import torch 
-from torch import nn
-
-import torch 
-from torch import nn
-
 import torch
-import torch.nn as nn
+from torch import nn
 
-class double_conv(nn.Module):
-    def __init__(self, in_chan, out_chan):
-        super().__init__()
+class DoubleConv(nn.Module):
+    def __init__(self, in_channels, out_channels):
+        super(DoubleConv, self).__init__()
         self.conv = nn.Sequential(
-            nn.Conv2d(in_channels=in_chan, out_channels=out_chan, kernel_size=3, padding=1),
+            nn.Conv2d(in_channels=in_channels, out_channels=out_channels, kernel_size=3, padding=1),
             nn.ReLU(inplace=True),
-            nn.Conv2d(in_channels=out_chan, out_channels=out_chan, kernel_size=3, padding=1),
+            nn.Conv2d(in_channels=out_channels, out_channels=out_channels, kernel_size=3, padding=1),
             nn.ReLU(inplace=True)
         )
 
     def forward(self, x):
         return self.conv(x)
 
-# Down sampling layer
-class down_sample(nn.Module):
-    def __init__(self, in_chan, out_chan):
-        super().__init__()
-        self.conv = double_conv(in_chan, out_chan)
+class DownSample(nn.Module):
+    def __init__(self, in_channels, out_channels):
+        super(DownSample, self).__init__()
+        self.conv = DoubleConv(in_channels, out_channels)
         self.pool = nn.MaxPool2d(kernel_size=2, stride=2)
 
     def forward(self, x):
         down = self.conv(x)
-        pl = self.pool(down)
-        return down, pl
+        pooled = self.pool(down)
+        return down, pooled
 
-# Up sampling layer
-class up_sample(nn.Module):
-    def __init__(self, in_chan, out_chan):
-        super().__init__()
-        self.up_conv = nn.ConvTranspose2d(in_channels=in_chan, out_channels=out_chan // 2, kernel_size=2, stride=2)
-        self.conv = double_conv(in_chan, out_chan)
+class UpSample(nn.Module):
+    def __init__(self, in_channels, out_channels):
+        super(UpSample, self).__init__()
+        self.up_conv = nn.ConvTranspose2d(in_channels=in_channels, out_channels=out_channels // 2, kernel_size=2, stride=2)
+        self.conv = DoubleConv(in_channels, out_channels)
 
     def forward(self, x1, x2):
         x1 = self.up_conv(x1)
+        # Ensure the dimensions match by padding if necessary
+        diffY = x2.size()[2] - x1.size()[2]
+        diffX = x2.size()[3] - x1.size()[3]
+        x1 = nn.functional.pad(x1, [diffX // 2, diffX - diffX // 2,
+                                    diffY // 2, diffY - diffY // 2])
         x = torch.cat([x2, x1], dim=1)  # skip connections
         return self.conv(x)
 
 class UNet(nn.Module):
-    def __init__(self, in_chan, out_chan):
-        super().__init__()
-        self.down_conv_1 = down_sample(in_chan, 64)
-        self.down_conv_2 = down_sample(64, 128)
-        self.down_conv_3 = down_sample(128, 256)
-        self.down_conv_4 = down_sample(256, 512)
+    def __init__(self, in_channels, out_channels):
+        super(UNet, self).__init__()
+        self.down_conv_1 = DownSample(in_channels, 64)
+        self.down_conv_2 = DownSample(64, 128)
+        self.down_conv_3 = DownSample(128, 256)
+        self.down_conv_4 = DownSample(256, 512)
 
-        self.bottle_neck = double_conv(512, 1024)
+        self.bottle_neck = DoubleConv(512, 1024)
 
-        self.up_conv_1 = up_sample(1024, 512)
-        self.up_conv_2 = up_sample(512, 256)
-        self.up_conv_3 = up_sample(256, 128)
-        self.up_conv_4 = up_sample(128, 64)
+        self.up_conv_1 = UpSample(1024, 512)
+        self.up_conv_2 = UpSample(512, 256)
+        self.up_conv_3 = UpSample(256, 128)
+        self.up_conv_4 = UpSample(128, 64)
 
-        self.out = nn.Conv2d(in_channels=64, out_channels=out_chan, kernel_size=1)
+        self.out = nn.Conv2d(in_channels=64, out_channels=out_channels, kernel_size=1)
 
     def forward(self, x):
         down_1, p1 = self.down_conv_1(x)
@@ -76,4 +73,3 @@ class UNet(nn.Module):
 
         out = self.out(up_4)
         return out
-
