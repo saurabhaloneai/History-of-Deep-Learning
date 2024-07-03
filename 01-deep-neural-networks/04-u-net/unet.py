@@ -1,10 +1,9 @@
 import torch
 from torch import nn
 
-
 class DoubleConv(nn.Module):
     """
-    This is just an combination of conv2d + relu
+    This is just an `combination of conv2d + relu
     """
 
     def __init__(self, in_channels, out_channels):
@@ -110,3 +109,31 @@ class UNet(nn.Module):
 
         out = self.out(up_4)
         return out
+
+
+import torch
+import torch.nn as nn
+import torch.optim as optim
+
+def test_unet():
+    # Define the model
+    model = UNet(in_channels=3, out_channels=1)  # Example for RGB input and single channel output
+
+   
+    model.eval()
+
+    #  input tensor with batch size 1, 3 channels, and 256x256 dimensions
+    input_tensor = torch.randn(1, 3, 256, 256)
+
+    # Perform a forward pass
+    with torch.no_grad():
+        output_tensor = model(input_tensor)
+
+    # Check the output dimensions
+    assert output_tensor.shape == (1, 1, 256, 256), f"Expected output shape (1, 1, 256, 256), but got {output_tensor.shape}"
+
+    print("UNet test passed!")
+
+# Run the test
+test_unet()
+
