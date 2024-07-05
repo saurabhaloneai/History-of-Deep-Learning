@@ -1,4 +1,5 @@
-# History-of-Deep-Learning (inspire by @adam-maj)
+
+# Speedrun of re-implemntation of History-of-Deep-Learning (inspire by @adam-maj) 
 
 Three stage of implemntation : From Scrath, In PyTorch And In Jax(not all but some).
 
