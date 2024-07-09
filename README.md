@@ -3,7 +3,7 @@
 
 Three stage of implemntation : From Scrath, In PyTorch And In Jax(not all but some).
 
-## Totalcount : (4/31)
+## Totalcount : (9/32)
 
 ## 01-deep-neural-networks
 
@@ -18,14 +18,15 @@ Three stage of implemntation : From Scrath, In PyTorch And In Jax(not all but so
 
 | Concept         | Complete |
 |-----------------|-------|
-| weights-decay   |    |
-| relu            |    |
-| residuals       |    |
-| dropout         |    |
-| batch-norm      |    |
-| layer-norm      |    |
-| gelu            |    |
-| adam            |    |
+| weights-decay   |  ✅   |
+| relu            |  ✅   |
+| residuals       |       |
+| dropout         |  ✅   |
+| batch-norm      |       |
+| layer-norm      |       |
+| gelu            |  ✅   |
+| adam            |       |
+| early-stopping  |   ✅   |
 
 ## 03-sequence-modeling
 
