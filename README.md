@@ -1,12 +1,12 @@
 
 # speedrun of implemntation of History-of-Deep-Learning
 
-- inspired by "adam-maj" - I added few more papers and few sections.
+- Inspired by "adam-maj" - I added few more papers and few sections.
 
 - Three stage of implemntation : From Scrath, In PyTorch And In Jax(not all but some).
 
 
-## Totalcount : (9/32)
+## Totalcount : (9/60)
 
 ## 01-deep-neural-networks
 
