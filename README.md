@@ -1,7 +1,7 @@
 
 # speedrun implemntation of History-of-Deep-Learning
 
-- Why am I doing this? Because I'm retarded, so my notes and code might be retarded sometimes. So, be careful.
+- why am I doing this? because I'm retarded, so my notes and code might be retarded sometimes. So, be careful.
 
 - Inspired by "adam-maj" - I added few more papers and few sections.
 
@@ -9,7 +9,9 @@
 
 - My approach is to first gather all resource learn and also i will be keep updating the repo.
 
-- This repo is strictly my personal ml notes. 
+- This repo is strictly my personal ml notes. thank u : ) 
+
+- My ML resource stack : [link](https://whimsical.com/current-goals-NP2xuDwNCMhKmZyWLDw4ch)
 
 
 ## Totalcount : (9/60)
