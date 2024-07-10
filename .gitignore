@@ -2,7 +2,7 @@
 .ipynb_checkpoints
 datasets
 .DS_Store
-
+.vscode
 
 01-deep-neural-networks/04-u-net/train/0cdf5b5d0ce1_01.jpg
 01-deep-neural-networks/04-u-net/train/0cdf5b5d0ce1_02.jpg
