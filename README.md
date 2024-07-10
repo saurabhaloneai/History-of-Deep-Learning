@@ -1,7 +1,7 @@
 
 # speedrun implemntation of History-of-Deep-Learning
 
-- here i am trying to implement around 60 imp DL papers.(it will completed between aug-sep..hope so)
+- here i am trying to implement around 60 imp DL papers. (it will be completed between aug-sep..hope so : )
 
 - why am I doing this? because I'm retarded, so my notes and code might be retarded sometimes. So, be careful.
 
