@@ -7,6 +7,10 @@
 
 - Three stage of implemntation : From Scrath, In PyTorch And In Jax(not all but some).
 
+- My approach is to first gather all resource learn and also i will be keep updating the repo.
+
+- This repo is strictly my personal ml notes. 
+
 
 ## Totalcount : (9/60)
 
