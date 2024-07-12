@@ -1,11 +1,11 @@
 
-# speedrun implemntation of History-of-Deep-Learning
+# speedrun implemntation of History-of-Deep-Learning 🐳
 
 - here i am trying to implement around 60 imp DL papers. (it will be completed between aug-sep..hope so : )
 
-- why am I doing this? because I'm retarded, so my notes and code might be retarded sometimes. So, be careful.
+- why am I doing this? because I'm retarded, so my notes and code might be retarded sometimes. so, be careful.
 
-- Inspired by "adam-maj" - I added few more papers and few sections.
+- Inspired by **adam-maj** - I added few more papers and few sections.
 
 - Three stage of implemntation : From Scrath, In PyTorch And In Jax(not all but some).
 
