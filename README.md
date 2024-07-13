@@ -1,19 +1,19 @@
 
-# speedrun implemntation of History-of-Deep-Learning 🐳
+# speedrun implemntation of history-of-deep-learning 🐳
 
 - here i am trying to implement around 60 imp DL papers. (it will be completed between aug-sep..hope so : )
 
-- why am I doing this? because I'm retarded, so my notes and code might be retarded sometimes. so, be careful.
+- why am i doing this? because i'm retarded, so my notes and code might be retarded sometimes. so, be careful.
 
-- Inspired by **adam-maj** - I added few more papers and few sections.
+- inspired by **adam-maj** - I added few more papers and few sections.
 
-- Three stage of implemntation : From Scrath, In PyTorch And In Jax(not all but some).
+- three stage of implemntation : from Scrath, in pytorch and in jax(not all but some).
 
-- My approach is to first gather all resource learn and also i will be keep updating the repo.
+- my approach is to first gather all resource learn and also i will be keep updating the repo.
 
-- This repo is strictly my personal ml notes. thank u : ) 
+- this repo is strictly my personal ml notes. thank u : ) 
 
-- My ML resource stack : [link](https://whimsical.com/current-goals-NP2xuDwNCMhKmZyWLDw4ch)
+- my ml resource stack : [link](https://whimsical.com/current-goals-NP2xuDwNCMhKmZyWLDw4ch)
 
 
 ## Totalcount : (9/60)
@@ -74,6 +74,15 @@
 | diffusion       |    |
 | clip            |    |
 | dall-e          |    |
+
+## 06-reinforcement-learning
+
+| Concept         | Complete |
+|-----------------|-------|
+| Q-learning       |    |
+
+
+
 
 ---
 # Papers 
