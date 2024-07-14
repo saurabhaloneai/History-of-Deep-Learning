@@ -81,6 +81,20 @@
 |-----------------|-------|
 | Q-learning       |    |
 
+## 07-machine-learning 
+
+| Algorithm                 | Complete    |
+|---------------------------|-------------|
+| Linear Regression         |             |
+| Logistic Regression       |             |
+| Decision Trees            |             |
+| Random Forest             |             |
+| Support Vector Machines   |             |
+| K-Nearest Neighbors       |             |
+| K-Means Clustering        |             |
+| Naive Bayes               |             |
+| PCA                       |             |
+| Perceptron                |             |
 
 
 
