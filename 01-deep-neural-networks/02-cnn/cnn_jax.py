@@ -4,7 +4,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
-from IPython.display import Javascript  # Restrict height of output cell.
 from sklearn.metrics import ConfusionMatrixDisplay
 
 import torch
@@ -32,7 +31,6 @@ CROP_SCALES = (0.8, 1.0)
 CROP_RATIO = (0.9, 1.1)
 SEED = 42
 
-plt.style.use('dark_background')
 
 
 # CNN 
@@ -55,13 +53,13 @@ class CNN(nn.Module):
     return x
 
 
-# t normalizes the images
+
 def image_to_numpy(img):
   img = np.array(img, dtype=np.float32)
   img = (img / 255. - DATA_MEANS) / DATA_STD
   return img
 
-# batches into numpy arrays 
+
 def numpy_collate(batch):
   if isinstance(batch[0], np.ndarray):
     return np.stack(batch)
@@ -72,9 +70,7 @@ def numpy_collate(batch):
     return np.array(batch)
 
 classes = ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
-# images in the test set will only be converted into numpy arrays
 test_transform = image_to_numpy
-# images in the train set will be randomly flipped, cropped, and then converted to numpy arrays
 train_transform = transforms.Compose([
     transforms.RandomHorizontalFlip(),
     transforms.RandomResizedCrop((IMAGE_SIZE, IMAGE_SIZE), scale=CROP_SCALES, ratio=CROP_RATIO),
