@@ -29,17 +29,17 @@
 
 ## 02-optimization-and-regularization
 
-| Concept         | Complete |
+| Concept         | Complete|
 |-----------------|-------|
 | weights-decay   |  ✅   |
 | relu            |  ✅   |
-| residuals       |       |
+| residuals       |  ✅   |
 | dropout         |  ✅   |
-| batch-norm      |       |
+| batch-norm      |  ✅   |
 | layer-norm      |       |
 | gelu            |  ✅   |
 | adam            |       |
-| early-stopping  |   ✅   |
+| early-stopping  |  ✅   |
 
 ## 03-sequence-modeling
 
