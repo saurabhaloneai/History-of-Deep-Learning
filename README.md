@@ -1,22 +1,22 @@
 
-# speedrun implemntation of history-of-deep-learning 🐳
+# Speedrun Implemntation Of History Of Deep Learning 🐳
 
-- here i am trying to implement around 60 imp DL papers. (it will be completed between aug-sep..hope so : )
+- Here i am trying to implement around 60 imp DL papers. 
 
-- why am i doing this? because i'm retarded, so my notes and code might be retarded sometimes. so, be careful.
+- Why am i doing this? because i'm retarded, so my notes and code might be retarded sometimes. so, be careful.
 
-- inspired by **adam-maj** - I added few more papers and few sections.
+- Inspired by [**adam-maj**] -> I added few more papers and few sections.
 
-- three stage of implemntation : from Scrath, in pytorch and in jax(not all but some).
+- Three stage of implemntation : i will implement most of model from scracth (but not all).
 
-- my approach is to first gather all resource learn and also i will be keep updating the repo.
+- My approach is to first gather all resource learn and also i will be keep updating the repo.
 
-- this repo is strictly my personal ml notes. thank u : ) 
+- This is actualy personal learning repo.
 
-- my ml resource stack : [link](https://whimsical.com/current-goals-NP2xuDwNCMhKmZyWLDw4ch)
+- My ml resource stack : [link](https://whimsical.com/current-goals-NP2xuDwNCMhKmZyWLDw4ch)
 
 
-## Totalcount : (9/60)
+## Totalcount : (11/60)
 
 ## 01-deep-neural-networks
 
