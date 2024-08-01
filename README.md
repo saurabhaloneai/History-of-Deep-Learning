@@ -27,7 +27,7 @@
 | AlexNet       | ✅   |
 | U-net         | ✅   |
 | vis-cnn       |✅    |
-| YOLO-v8          |      |
+| YOLO-v8       |      |
 
 
 ## 02-optimization-and-regularization
