@@ -16,7 +16,7 @@
 - My ml resource stack : [link](https://whimsical.com/current-goals-NP2xuDwNCMhKmZyWLDw4ch)
 
 
-## Totalcount : (11/60)
+## Totalcount : (15/60)
 
 ## 01-deep-neural-networks
 
@@ -26,8 +26,8 @@
 | CNN           | ✅   |
 | AlexNet       | ✅   |
 | U-net         | ✅   |
-| vis-cnn       |✅    |
-| YOLO-v8       |      |
+| vis-cnn       | ✅   |
+| YOLO-v8       | ✅    |
 
 
 ## 02-optimization-and-regularization
@@ -39,9 +39,9 @@
 | residuals       |  ✅   |
 | dropout         |  ✅   |
 | batch-norm      |  ✅   |
-| layer-norm      |       |
+| layer-norm      |  ✅   |
 | gelu            |  ✅   |
-| adam            |       |
+| adam            |  ✅   |
 | early-stopping  |  ✅   |
 
 ## 03-sequence-modeling
@@ -50,6 +50,7 @@
 |-------------------|-------|
 | rnn               |    |
 | lstm              |    |
+| GRU               |    |
 | learning-to-forget|    |
 | word2vec          |    |
 | seq2seq           |    |
