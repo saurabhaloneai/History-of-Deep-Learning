@@ -135,7 +135,7 @@ def update_model(state, grads):
 
 
 def train_epoch(state, data_loader):
-  """Train for a single epoch."""
+  
 
   epoch_loss = []
   epoch_accuracy = []
