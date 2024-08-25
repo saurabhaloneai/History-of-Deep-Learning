@@ -23,7 +23,7 @@
 
 # Contents
 
-[Deep Neural Networks](#Deep Neural Networks)
+[Deep Neural Networks](#deep-neural-networks)
 
 - [DNN](01-deep-neural-networks/01-dnn)
 - [CNN](01-deep-neural-networks/02-cnn)
@@ -31,7 +31,7 @@
 - [AlexNet](01-deep-neural-networks/04-alexnet)
 - [U-Net](01-deep-neural-networks/05-unet)
 
-[Optimization and Regularization](#Optimization and Regularization)
+[Optimization and Regularization](#optimization-and-regularization)
 
 - [Weight Decay](02-optimization-and-regularization/01-weight-decay)
 - [ReLU](02-optimization-and-regularization/02-relu)
@@ -42,7 +42,7 @@
 - [GELU](02-optimization-and-regularization/07-gelu)
 - [Adam](02-optimization-and-regularization/08-adam)
 
-[Sequence Modeling](#Sequence Modeling)
+[Sequence Modeling](#sequence-modeling)
 
 - [RNN](03-sequence-modeling/01-rnn)
 - [LSTM](03-sequence-modeling/02-lstm)
@@ -54,7 +54,7 @@
 - [Attention](03-sequence-modeling/08-attention)
 - [Mixture of Experts](03-sequence-modeling/09-mixture-of-experts)
 
-[Language Modeling](#Language Modeling)
+[Language Modeling](#language-modeling)
 
 - [Transformer](04-language-modeling/01-transformer)
 - [BERT](04-language-modeling/02-bert)
@@ -72,7 +72,7 @@
 - [Vision Transformer](04-language-modeling/14-vision-transformer)
 - [ELECTRA](04-language-modeling/15-electra)
 
-[Image Generative Modeling](#Image Generative Modeling)
+[Image Generative Modeling](#image-generative-modeling)
 
 - [GAN](05-image-generative-modeling/01-gan)
 - [VAE](05-image-generative-modeling/02-vae)
@@ -87,14 +87,14 @@
 - [DALL E 2](05-image-generative-modeling/11-dall-e-2)
 - [SimCLR](05-image-generative-modeling/12-simclr)
 
-[Deep Reinforcement Learning](#Deep Reinforcement Learning)
+[Deep Reinforcement Learning](#deep-reinforcement-learning)
 
 - [Deep Reinforcement Learning](06-deep-reinforcement-learning/01-deep-reinforcement-learning)
 - [Deep Q-Learning](06-deep-reinforcement-learning/02-deep-q-learning)
 - [AlphaGo](06-deep-reinforcement-learning/03-alphago)
 - [AlphaFold](06-deep-reinforcement-learning/04-alphafold)
 
-[machine learning](#machine learning)
+[Machine Learning](#machine-learning)
 
 - [Linear Regression](07-machine-learning/01-linear-regression) 
 - [Logistic Regression](07-machine-learning/02-logistic-regression)
