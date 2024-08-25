@@ -15,7 +15,8 @@
 
 > [!IMPORTANT]
 >
-> ... as part of increasing my depth of understanding, i have build the image-captioning project with `resnet+attention+lstms`.
+> ... as part of increasing my depth of understanding, i have build the image-captioning project with 
+> `resnet+attention+lstms`.
 >
 > ... you can find the project [here](https://github.com/saurabhaloneai/image-cap.git)
 
