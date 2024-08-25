@@ -23,95 +23,88 @@
 
 # Contents
 
-(Deep Neural Networks)[#Deep Neural Networks]
+[Deep Neural Networks](#Deep Neural Networks)
 
-- (DNN)[01-deep-neural-networks/01-dnn]
-- (CNN)[01-deep-neural-networks/02-cnn]
-- (LeNet)[01-deep-neural-networks/03-lenet]
-- (AlexNet)[01-deep-neural-networks/04-alexnet]
-- (U-Net)[01-deep-neural-networks/05-unet]
+- [DNN](01-deep-neural-networks/01-dnn)
+- [CNN](01-deep-neural-networks/02-cnn)
+- [LeNet](01-deep-neural-networks/03-lenet)
+- [AlexNet](01-deep-neural-networks/04-alexnet)
+- [U-Net](01-deep-neural-networks/05-unet)
 
-(Optimization and Regularization)[#Optimization and Regularization]
+[Optimization and Regularization](#Optimization and Regularization)
 
-- (Weight Decay)[02-optimization-and-regularization/01-weight-decay]
-- (ReLU)[02-optimization-and-regularization/02-relu]
-- (Residuals)[02-optimization-and-regularization/03-residuals]
-- (Dropout)[02-optimization-and-regularization/04-dropout]
-- (BatchNorm)[02-optimization-and-regularization/05-batchnorm]
-- (LayerNorm)[02-optimization-and-regularization/06-layernorm]
-- (GELU)[02-optimization-and-regularization/07-gelu]
-- (Adam)[02-optimization-and-regularization/08-adam]
+- [Weight Decay](02-optimization-and-regularization/01-weight-decay)
+- [ReLU](02-optimization-and-regularization/02-relu)
+- [Residuals](02-optimization-and-regularization/03-residuals)
+- [Dropout](02-optimization-and-regularization/04-dropout)
+- [BatchNorm](02-optimization-and-regularization/05-batchnorm)
+- [LayerNorm](02-optimization-and-regularization/06-layernorm)
+- [GELU](02-optimization-and-regularization/07-gelu)
+- [Adam](02-optimization-and-regularization/08-adam)
 
-(Sequence Modeling)[#Sequence Modeling]
+[Sequence Modeling](#Sequence Modeling)
 
-- (RNN)[03-sequence-modeling/01-rnn]
-- (LSTM)[03-sequence-modeling/02-lstm]
-- (Learning to Forget)[03-sequence-modeling/03-learning-to-forget]
-- (Word2Vec)[03-sequence-modeling/04-word2vec]
-- (Phrase2Vec)[03-sequence-modeling/05-phrase2vec]
-- (Encoder-Decoder)[03-sequence-modeling/06-encoder-decoder]
-- (Seq2Seq)[03-sequence-modeling/07-seq2seq]
-- (Attention)[03-sequence-modeling/08-attention]
-- (Mixture of Experts)[03-sequence-modeling/09-mixture-of-experts]
+- [RNN](03-sequence-modeling/01-rnn)
+- [LSTM](03-sequence-modeling/02-lstm)
+- [Learning to Forget](03-sequence-modeling/03-learning-to-forget)
+- [Word2Vec](03-sequence-modeling/04-word2vec)
+- [Phrase2Vec](03-sequence-modeling/05-phrase2vec)
+- [Encoder-Decoder](03-sequence-modeling/06-encoder-decoder)
+- [Seq2Seq](03-sequence-modeling/07-seq2seq)
+- [Attention](03-sequence-modeling/08-attention)
+- [Mixture of Experts](03-sequence-modeling/09-mixture-of-experts)
 
-(Language Modeling)[#Language Modeling]
+[Language Modeling](#Language Modeling)
 
-- (Transformer)[04-language-modeling/01-transformer]
-- (BERT)[04-language-modeling/02-bert]
-- (RoBERTa)[04-language-modeling/03-roberta]
-- (T5)[04-language-modeling/04-t5]
-- (GPT)[04-language-modeling/05-gpt]
-- (GPT-4)[04-language-modeling/06-gpt-4]
-- (GPT-2)[04-language-modeling/07-gpt-2]
-- (GPT-3)[04-language-modeling/08-gpt-3]
-- (LoRA)[04-language-modeling/09-lora]
-- (RLHF)[04-language-modeling/10-rlhf]
-- (PPO)[04-language-modeling/11-ppo]
-- (InstructGPT)[04-language-modeling/12-instructgpt]
-- (Helpful & Harmless)[04-language-modeling/13-helpful-and-harmless]
-- (Vision Transformer)[04-language-modeling/14-vision-transformer]
-- (ELECTRA)[04-language-modeling/15-electra]
+- [Transformer](04-language-modeling/01-transformer)
+- [BERT](04-language-modeling/02-bert)
+- [RoBERTa](04-language-modeling/03-roberta)
+- [T5](04-language-modeling/04-t5)
+- [GPT](04-language-modeling/05-gpt)
+- [GPT-4](04-language-modeling/06-gpt-4)
+- [GPT-2](04-language-modeling/07-gpt-2)
+- [GPT-3](04-language-modeling/08-gpt-3)
+- [LoRA](04-language-modeling/09-lora)
+- [RLHF](04-language-modeling/10-rlhf)
+- [PPO](04-language-modeling/11-ppo)
+- [InstructGPT](04-language-modeling/12-instructgpt)
+- [Helpful & Harmless](04-language-modeling/13-helpful-and-harmless)
+- [Vision Transformer](04-language-modeling/14-vision-transformer)
+- [ELECTRA](04-language-modeling/15-electra)
 
-(Image Generative Modeling)[#Image Generative Modeling]
+[Image Generative Modeling](#Image Generative Modeling)
 
-- (GAN)[05-image-generative-modeling/01-gan]
-- (VAE)[05-image-generative-modeling/02-vae]
-- (VQ VAE)[05-image-generative-modeling/03-vq-vae]
-- (VQ VAE 2)[05-image-generative-modeling/04-vq-vae-2]
-- (Diffusion)[05-image-generative-modeling/05-diffusion]
-- (Denoising Diffusion)[05-image-generative-modeling/06-denoising-diffusion]
-- (Denoising Diffusion 2)[05-image-generative-modeling/07-denoising-diffusion-2]
-- (Diffusion Beats GANs)[05-image-generative-modeling/08-diffusion-beats-gans]
-- (CLIP)[05-image-generative-modeling/09-clip]
-- (DALL E)[05-image-generative-modeling/10-dall-e]
-- (DALL E 2)[05-image-generative-modeling/11-dall-e-2]
-- (SimCLR)[05-image-generative-modeling/12-simclr]
+- [GAN](05-image-generative-modeling/01-gan)
+- [VAE](05-image-generative-modeling/02-vae)
+- [VQ VAE](05-image-generative-modeling/03-vq-vae)
+- [VQ VAE 2](05-image-generative-modeling/04-vq-vae-2)
+- [Diffusion](05-image-generative-modeling/05-diffusion)
+- [Denoising Diffusion](05-image-generative-modeling/06-denoising-diffusion)
+- [Denoising Diffusion 2](05-image-generative-modeling/07-denoising-diffusion-2)
+- [Diffusion Beats GANs](05-image-generative-modeling/08-diffusion-beats-gans)
+- [CLIP](05-image-generative-modeling/09-clip)
+- [DALL E](05-image-generative-modeling/10-dall-e)
+- [DALL E 2](05-image-generative-modeling/11-dall-e-2)
+- [SimCLR](05-image-generative-modeling/12-simclr)
 
-(Deep Reinforcement Learning)[#Deep Reinforcement Learning]
+[Deep Reinforcement Learning](#Deep Reinforcement Learning)
 
-- (Deep Reinforcement Learning)[06-deep-reinforcement-learning/01-deep-reinforcement-learning]
-- (Deep Q-Learning)[06-deep-reinforcement-learning/02-deep-q-learning]
-- (AlphaGo)[06-deep-reinforcement-learning/03-alphago]
-- (AlphaFold)[06-deep-reinforcement-learning/04-alphafold]
+- [Deep Reinforcement Learning](06-deep-reinforcement-learning/01-deep-reinforcement-learning)
+- [Deep Q-Learning](06-deep-reinforcement-learning/02-deep-q-learning)
+- [AlphaGo](06-deep-reinforcement-learning/03-alphago)
+- [AlphaFold](06-deep-reinforcement-learning/04-alphafold)
 
-(machine learning)[#machine learning]
+[machine learning](#machine learning)
 
-- (Linear Regression)[07-machine-learning/01-linear-regression] 
-- (Logistic Regression)[07-machine-learning/02-logistic-regression]
-- (Decision Trees)[07-machine-learning/03-decision-trees]
-- (Random Forest)[07-machine-learning/04-random-forest]
-- (SVM)[07-machine-learning/05-svm]
-- (K-Nearest Neighbors)[07-machine-learning/06-k-nearest-neighbors]
-- (K-Means)[07-machine-learning/07-k-means]
-- (PCA)[07-machine-learning/08-pca] 
-- (Perceptron)[07-machine-learning/09-perceptron]
-
-
-(Extraa)[#Extraa]
-
-
-
-
+- [Linear Regression](07-machine-learning/01-linear-regression) 
+- [Logistic Regression](07-machine-learning/02-logistic-regression)
+- [Decision Trees](07-machine-learning/03-decision-trees)
+- [Random Forest](07-machine-learning/04-random-forest)
+- [SVM](07-machine-learning/05-svm)
+- [K-Nearest Neighbors](07-machine-learning/06-k-nearest-neighbors)
+- [K-Means](07-machine-learning/07-k-means)
+- [PCA](07-machine-learning/08-pca) 
+- [Perceptron](07-machine-learning/09-perceptron)
 
 # Papers 
 
