@@ -1,6 +1,6 @@
 import torch 
 from torch import nn
-from torch functiona L # ADD THE JAX 
+from torch.nn import functional as F 
 
 
 
@@ -24,7 +24,7 @@ class RNNModel(nn.Module):
         X = X.to(torch.float32)
         Y, state = self.rnn(X, state)
         output = self.linear(Y.reshape((-1, Y.shape[-1])))
-        return output, begin_state
+        return output, state  # Change begin_state to state
 
 
     #begin state
