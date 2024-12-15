@@ -95,7 +95,7 @@ Inspired by [adam-maj](https://github.com/adam-maj) and expanded with additional
 - **AlphaGo** (2016): Mastering the Game of Go [pdf](https://www.nature.com/articles/nature16961.pdf)
 - **AlphaFold** (2021): Protein Structure Prediction [pdf](https://www.nature.com/articles/s41586-021-03819-2.pdf)
 
-### Additional Influential Papers
+### 7. Additional Influential Papers
 
 - **Deep Learning Survey** (2015): By LeCun, Bengio, and Hinton [pdf](https://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf)
 - **BigGAN** (2018): Large Scale GAN Training [pdf](https://arxiv.org/pdf/1809.11096.pdf)
