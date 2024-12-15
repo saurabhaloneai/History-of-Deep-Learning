@@ -101,3 +101,35 @@ Inspired by [adam-maj](https://github.com/adam-maj) and expanded with additional
 - **BigGAN** (2018): Large Scale GAN Training [pdf](https://arxiv.org/pdf/1809.11096.pdf)
 - **WaveNet** (2016): Generative Model for Raw Audio [pdf](https://arxiv.org/pdf/1609.03499.pdf)
 - **BERTology** (2020): Survey of BERT Use Cases [pdf](https://arxiv.org/pdf/2002.10063.pdf)
+
+#### Scaling and Model Optimization
+- **Scaling Laws for Neural Language Models** (2020): Predicting Model Performance [pdf](https://arxiv.org/pdf/2001.08361.pdf)
+- **Chinchilla** (2022): Training Compute-Optimal Large Language Models [pdf](https://arxiv.org/pdf/2203.15556.pdf)
+- **Gopher** (2022): Scaling Language Models with Massive Compute [pdf](https://arxiv.org/pdf/2112.11446.pdf)
+
+#### Fine-tuning and Adaptation
+- **P-Tuning** (2021): Prompt Tuning with Soft Prompts [pdf](https://arxiv.org/pdf/2103.10385.pdf)
+- **Prefix-Tuning** (2021): Optimizing Continuous Prompts [pdf](https://arxiv.org/pdf/2101.00190.pdf)
+- **AdaLoRA** (2023): Adaptive Low-Rank Adaptation [pdf](https://arxiv.org/pdf/2303.10512.pdf)
+- **QLoRA** (2023): Efficient Fine-Tuning of Quantized Models [pdf](https://arxiv.org/pdf/2305.14314.pdf)
+
+#### Inference and Optimization Techniques
+- **FlashAttention** (2022): Fast and Memory-Efficient Attention [pdf](https://arxiv.org/pdf/2205.14135.pdf)
+- **FlashAttention-2** (2023): Faster Attention Mechanism [pdf](https://arxiv.org/pdf/2307.08691.pdf)
+- **Direct Preference Optimization (DPO)** (2023): Aligning Language Models with Human Preferences [pdf](https://arxiv.org/pdf/2305.18046.pdf)
+- **LoRA** (2021): Low-Rank Adaptation of Large Language Models [pdf](https://arxiv.org/pdf/2106.09685.pdf)
+
+#### Pre-training and Model Architecture
+- **Mixture of Experts (MoE)** (2022): Scaling Language Models with Sparse Experts [pdf](https://arxiv.org/pdf/2201.05596.pdf)
+- **GLaM** (2021): Efficient Scaling with Mixture of Experts [pdf](https://arxiv.org/pdf/2112.06905.pdf)
+- **Switch Transformers** (2022): Scaling to Trillion Parameter Models [pdf](https://arxiv.org/pdf/2101.03961.pdf)
+
+#### Reasoning and Capabilities
+- **Chain of Thought Prompting** (2022): Reasoning with Language Models [pdf](https://arxiv.org/pdf/2201.11903.pdf)
+- **Self-Consistency** (2022): Improving Language Model Reasoning [pdf](https://arxiv.org/pdf/2203.11171.pdf)
+- **Tree of Thoughts** (2023): Deliberate Problem Solving [pdf](https://arxiv.org/pdf/2305.10601.pdf)
+
+#### Efficiency and Compression
+- **DistilBERT** (2019): Distilled Version of BERT [pdf](https://arxiv.org/pdf/1910.01108.pdf)
+- **Knowledge Distillation** (2022): Comprehensive Survey [pdf](https://arxiv.org/pdf/2006.05525.pdf)
+- **Pruning and Quantization Techniques** (2022): Model Compression Survey [pdf](https://arxiv.org/pdf/2102.06322.pdf)
